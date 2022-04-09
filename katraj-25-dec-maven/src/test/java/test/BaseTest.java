@@ -22,7 +22,7 @@ public class BaseTest {
 	String path=System.getProperty("user.dir")+"\\src\\test\\resources\\config.properties";
 	public Properties prop;
 	FileInputStream fis;
-  
+  //hii hello
   @BeforeSuite
   public void beforeSuite() throws IOException {
 	 
