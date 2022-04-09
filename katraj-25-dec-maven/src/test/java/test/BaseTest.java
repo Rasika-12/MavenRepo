@@ -39,7 +39,7 @@ public class BaseTest {
 		 
 		 prop.load(fis);
 		 
-		 
+	//thanks	 
 			driver.get(prop.getProperty("url"));
 			
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));		
